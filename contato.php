@@ -6,7 +6,9 @@
 
 <body>
     <?php require_once ("menu.php"); ?>
+    
     <div class="container">
+        <div class="jumbotron">
             <form>
                 <div class="form-group">
                     <label for="exampleInputName">Nome:</label>
@@ -22,11 +24,11 @@
                 </div>
                 <div class="form-group">
                     <label for="exampleInputMessage">Mensagem:</label>
-                    <input type="message" class="form-control" id="exampleInputEmail1" placeholder="">
+                    <textarea class="form-control" rows="3"></textarea>
                 </div>
                 <button type="submit" class="btn btn-default">Enviar</button>
             </form>
-
+        </div>
             <?php require_once("footer.php"); ?>
     </div><!-- /.container -->
 
