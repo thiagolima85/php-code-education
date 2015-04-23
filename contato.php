@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <?php require_once("head.php"); ?>
-</head>
-
-<body>
-    <?php require_once ("menu.php"); ?>
-
-    <div class="container">
+<div class="container">
         <div class="jumbotron">
             <form method="post" action="gerenciadorFormulario.php">
                 <div class="form-group">
@@ -29,18 +20,8 @@
                 <button type="submit" class="btn btn-default">Enviar</button>
             </form>
         </div>
-            <?php require_once("footer.php"); ?>
-    </div><!-- /.container -->
+</div><!-- /.container -->
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="js/ie10-viewport-bug-workaround.js"></script>
-</body>
-</html>
 
 
 
